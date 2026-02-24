@@ -1,0 +1,1 @@
+import React from 'react';\n\nconst HUD = ({ health, hunger, hotbar }) => {\n    return (\n        <div className="hud">\n            <div className="health">Health: {health}</div>\n            <div className="hunger">Hunger: {hunger}</div>\n            <div className="hotbar">Hotbar: {hotbar.join(' ')}</div>\n        </div>\n    );\n};\n\nexport default HUD;\n
