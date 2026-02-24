@@ -1,0 +1,27 @@
+# Node.js
+/node_modules/
+/npm-debug.log
+/yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build output
+dist/
+build/
+
+# Other IDE files
+.vscode/
+.idea/
+
+# Game development files
+*.unity
+*.psd
+*.tmp
+*.log
+*.sln
+*.suo
